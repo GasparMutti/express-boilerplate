@@ -1,5 +1,5 @@
 import express, {Router} from "express";
-import App, {RequestHandler} from "./App.js";
+import App from "./App.js";
 import Server from "./Server.js";
 import middlewares from "./middlewares/index.js";
 import routes from "./routes/index.js";
