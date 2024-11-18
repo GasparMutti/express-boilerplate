@@ -18,5 +18,5 @@ npm run dev
 
 ```bash
 PORT = 8080
-ACCESS_CONTROL_ALLOW_ORIGIN = http://localhost:9090
+ALLOWED_ORIGINS = http://localhost:9090
 ```
