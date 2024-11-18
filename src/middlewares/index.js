@@ -1,6 +1,6 @@
-import logMiddleware from "./logMiddleware.js";
+import logger from "./logger.js";
 import {json} from "express";
 
-const middlewares = [json(), logMiddleware];
+const middlewares = [json(), logger];
 
 export default middlewares;
