@@ -8,8 +8,15 @@ Clean boilerplate for projects with ExpressJS.
 npm install
 ```
 
-## 2. Start server
+## 2. Start server in dev mode
 
 ```bash
 npm run dev
+```
+
+## 3. Create environment file with global variables (optional)
+
+```bash
+PORT = 8080
+ACCESS_CONTROL_ALLOW_ORIGIN = http://localhost:9090
 ```
