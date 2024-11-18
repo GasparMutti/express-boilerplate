@@ -1,4 +1,4 @@
-import healtRoutes from "./health/index.js";
+import healtRoutes from "./test/index.js";
 
 const routes = [...healtRoutes];
 
